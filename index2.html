@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    var colorArray0 = ['red','green','blue','yellow','pink','purple','white'];
+    var colorArray1 = ['purple','pink','yellow','blue','green','red'];
+    var i = 0;
+    
+    function changeColor(){
+    document.body.style.background = colorArray0[i];
+    i++;
+    if ( i > colorArray0.length - 1 ){
+      i = 0;
+    }
+    }
+    
+    </script>
+    <button onclick = "changeColor();">change color -> </button>
+  
+    <script>
+      document.write('type here something');
+      function A(){
+      alert('hello welcome to change color site');
+      };
+      setTimeout(A,888);
+        </script>
+
+
+
+
+  
+</body>
+</html>
